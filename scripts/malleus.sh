@@ -47,11 +47,11 @@ set_defaults() {
     fi
 
     if [ -z "$MALLEUS_ROOM_NAME_PREFIX" ]; then
-      MALLEUS_ROOM_NAME_PREFIX='loadtest'
+      MALLEUS_ROOM_NAME_PREFIX='loadtesting'
     fi
 
     if [ -z "$MALLEUS_HUB_URL" ]; then
-      MALLEUS_HUB_URL='http://localhost:4444/wd/hub'
+      MALLEUS_HUB_URL='http://172.16.4.76:4444/wd/hub'
     fi
 
     if [ -z "$MALLEUS_INSTANCE_URL" ]; then
